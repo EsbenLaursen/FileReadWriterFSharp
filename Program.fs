@@ -6,7 +6,8 @@ open System.IO
 let pathRead = @"C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\text.txt"
 let pathWrite = @"C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\WrittenFile.txt"
 
-
+let mutable searching = true
+let exitWord = "exit"
 
 
 let checkIfWordExist words word = 
@@ -32,28 +33,23 @@ let readFile =
 let writeToFile occurences = 
     let toString = "The word " + (fst occurences).ToString() + " appeared " + (snd occurences).ToString() + " times"
     File.WriteAllText(pathWrite, toString)
-let mutable searching = true
-let exitWord = "exit"
+
 let checkForExit word = 
     if word = exitWord then
         false
     else
         true
 
-// Create instance of Data and Read in the file.
-
-
 let start =
     let words = readFile
     while searching do 
-        printfn "%b" searching
         printfn "Which word would you like to search for? Type 'exit' to exit"
         let word = Console.ReadLine()
         searching <- checkForExit word
         let exist = checkIfWordExist words word
         if exist = true then
             let result = checkOccurences words word
-            printfn "%s - %i" (fst result) (snd result)  
+            printfn "%s - %i occurences" (fst result) (snd result)  
             writeToFile result 
 
 start

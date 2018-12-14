@@ -1,8 +1,0 @@
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\bin\Debug\netcoreapp2.1\FileReaderWriterFSharp.deps.json
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\bin\Debug\netcoreapp2.1\FileReaderWriterFSharp.runtimeconfig.json
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\bin\Debug\netcoreapp2.1\FileReaderWriterFSharp.runtimeconfig.dev.json
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\bin\Debug\netcoreapp2.1\FileReaderWriterFSharp.dll
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\bin\Debug\netcoreapp2.1\FileReaderWriterFSharp.pdb
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\obj\Debug\netcoreapp2.1\FileReaderWriterFSharp.fsprojAssemblyReference.cache
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\obj\Debug\netcoreapp2.1\FileReaderWriterFSharp.dll
-C:\Users\Esben\Documents\Visual Studio 2017\Projects\FileReaderWriterFSharp\FileReaderWriterFSharp\obj\Debug\netcoreapp2.1\FileReaderWriterFSharp.pdb
